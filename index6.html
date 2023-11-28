@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Resume Builder</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="style1.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#toggle").click(function(){
+    $("p").toggle();
+  });
+});
+</script>
+</head>
+<body>
+<div class="header">
+<center><h1>Emanuella Ivana Karunia</h1>
+    <h3>2702323585 ~ L1AC</h3></center>
+  </div>
+    <hr>
+<center><form>
+    <label for="date">Today's date; </label>
+    <input type="date" name="date" required>
+    <br>
+    <br>
+    <label for="fullname">Full name; </label>
+    <input type="text" name="fullname" required>
+    <br>
+    <br>
+    <label for="nickname">Nickname; </label>
+    <input type="text" name="nickname" required>
+    <br>
+    <br>
+    <label for="email">Email; </label>
+    <input type="email" name="email" required>
+    <br>
+    <br>
+    <label for="education">Education; </label>
+    <input type="text" name="education" required>
+    <br>
+    <br>
+    <label for="experience">Experience; </label>
+    <input type="text" name="experience" required>
+    <br>
+    <br>
+    <input type="submit" value="submit">
+</form>
+<button id="toggle"><h2>Download Resume</h2></button>
+</body>
+</html>
